@@ -40,7 +40,7 @@ jobs:
       - run:
           name: Run test2
           # This assumes pytest is installed via the install-package step above
-          command: flake8 --statistics
+          command: flake8 --statistics --ignore=W291,W293,W391
                    
       - run:
           name: Install requirements
