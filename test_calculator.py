@@ -1,5 +1,6 @@
 """
 Unit tests for the calculator library
+Added multiplication
 """
 
 import calculator
