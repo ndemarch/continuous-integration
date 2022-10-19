@@ -1,2 +1,2 @@
 # continuous-integration
-Continuous integration with CircleCI
+Continuous integration example with CircleCI
