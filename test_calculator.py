@@ -1,5 +1,7 @@
 """
 Unit tests for the calculator library
+Added addition
+Added subtraction
 Added multiplication
 """
 
