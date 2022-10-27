@@ -35,11 +35,11 @@ jobs:
           # pip-dependency-file: test-requirements.txt  # if you have a different name for your requirements file, maybe one that combines your runtime and test requirements.
       - run:
           name: Run test1
-          # This assumes pytest is installed via the install-package step above
+          # This assumes pytest is installed via the install-requirements step below
           command: pytest -v --cov=calculator
       - run:
           name: Run test2
-          # This assumes pytest is installed via the install-package step above
+          # This assumes flake8 is installed via the install-requirements step below
           command: flake8 --statistics --ignore=W291,W293,W391
                    
       - run:
